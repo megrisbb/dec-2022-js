@@ -9,7 +9,7 @@ mainBody.classList.add('main-body')
 // Add title
 let mainBodyTitle = document.createElement('h1')
 mainBodyTitle.classList.add('main-body__title', 'lineUp', 'neonText')
-mainBodyTitle.innerHTML = 'Okten Web Mini-Project'
+mainBodyTitle.innerHTML = 'Mini-Project'
 
 // Add subtitle
 let mainBodySubTitle = document.createElement('h2')
@@ -40,7 +40,30 @@ mainBodyButton.onclick = () => {
 let loader = document.createElement('div')
 loader.classList.add('loader')
 
-mainBody.append(mainBodyTitle, mainBodySubTitle, mainBodyBtn, loader)
+const postDetailsMain = document.getElementsByClassName('postDetailsMain')[0];
+//Add button light
+const button = document.createElement('button');
+button.classList.add('light-button', 'light-btn');
+button.innerText = 'light';
+
+let click = true;
+
+button.addEventListener('click', () => {
+    mainBody.classList.toggle('light-theme');
+
+    console.log(button.length);
+    if (!click) {
+        button.innerText = 'light';
+    }
+    else {
+        button.innerText = 'dark';
+    }
+    click = !click;
+});
+
+mainBody.append(mainBodyTitle, mainBodySubTitle, mainBodyBtn, loader, button)
 wrapperDiv.append(mainBody)
 
 document.body.appendChild(wrapperDiv)
+
+

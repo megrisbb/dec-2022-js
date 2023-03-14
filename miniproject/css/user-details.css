@@ -1,0 +1,166 @@
+.wrapper {
+    background-color: black;
+    height: 140vh;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info {
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    border: 1px white solid;
+    padding: 30px 40px;
+    box-shadow: 0 0 1px #ffffff, 0 0 10px #05a6a6, 0 0 100px #2f2f2f;
+    transition: all 1s;
+}
+
+.user-info:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.main-post__title {
+    color: white;
+}
+
+.post-button {
+    margin-top: 50px;
+}
+.user-button {
+    width: 14em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #05a6a6;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user-button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+.user-button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+}
+
+.user-button:hover::before, .user-button:hover::after {
+    transform: scale(0)
+}
+
+.user-button:hover {
+    box-shadow: inset 0px 0px 25px #05a6a6;
+}
+
+.main-post__title {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    margin-top: 50px;
+}
+
+.post-title {
+    border: 1px solid #05a6a6;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 30px 20px;
+    box-shadow: 0 0 1px #ffffff, 0 0 10px #9158ce, 0 0 100px #2f2f2f;
+}
+
+.post-title a {
+    color: white;
+}
+
+.see-more__link {
+    margin-top: 30px;
+}
+/*Light Theme*/
+.light-theme {
+    background-color: #c9cab7;
+}
+.wrapper.light-theme .user-info {
+    background-color: #8f949d;
+    color: black;
+}
+.wrapper.light-theme .users-body p {
+    color: black;
+}
+
+.wrapper.light-theme .users-body a {
+    color: black;
+}
+
+.wrapper.light-theme .post-title {
+    color: black;
+}
+.wrapper.light-theme .post-title a {
+    color: black;
+}
+.wrapper.light-theme .user-button{
+    background-color: #c9cab7;
+    color: black;
+}
+.wrapper.light-theme .button{
+    background-color: #05a6a6;
+    color: black;
+}
+
+
+
+/*Light Theme*/
+
+/*Light Button*/
+.light-button {
+    padding: 15px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #05a6a6;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: #087b7b 0 7px 0 0;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 25%;
+    left: 45%;
+}
+
+.light-button:hover {
+    box-shadow: #087b7b 0 7px 0 0;
+}
+
+.light-button:active {
+    background-color: rgb(255, 56, 86);
+    /*50, 168, 80*/
+    box-shadow: rgb(201, 46, 70) 0 0 0 0;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+/*Light Button*/

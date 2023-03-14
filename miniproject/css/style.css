@@ -1,6 +1,4 @@
-.wrapper {
-
-}
+/*Main*/
 .main-body {
     background: #000;
     height: 100vh;
@@ -10,6 +8,10 @@
     align-items: center;
 }
 
+
+/*Main*/
+
+/*Title*/
 .lineUp {
     animation: 2s anim-lineUp ease-out;
 }
@@ -39,13 +41,15 @@
     animation: ani 2.5s forwards;
 }
 
-
 @keyframes ani {
     0% {opacity: 0;}
     50% {opacity: 0.5;}
     100% {opacity: 1;}
 }
 
+/*Title*/
+
+/*Button - Go to Users page*/
 .button-body{
     margin-top: 300px;
     border: 1px solid #05a6a6;
@@ -84,19 +88,19 @@
     animation: glitch_4011 1s;
     text-shadow: 10px 10px 10px black;
     animation-timing-function: steps(2, end);
-    text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8;
+    text-shadow: -3px -3px 0 #1df2f0, 3px 3px 0 #E94BE8;
     background-color: transparent;
     border: 3px solid rgb(0, 255, 213);
 }
 
 .main-button__animation:hover {
-    text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
+    text-shadow: -1px -1px 0 #1df2f0, 1px 1px 0 #E94BE8;
 }
 
 .main-button__animation:hover {
     background-color: transparent;
     border: 1px solid rgb(0, 255, 213);
-    box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+    box-shadow: 0 10px 10px -10px rgb(0, 255, 213);
 }
 
 @keyframes glitch_4011 {
@@ -155,7 +159,9 @@
         transform: translate(0);
     }
 }
+/*Button - Go to Users page*/
 
+/*Loader*/
 .loader {
     position: relative;
     width: 2.5em;
@@ -187,7 +193,7 @@
 @keyframes before8 {
     0% {
         width: 0.5em;
-        box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+        box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), 1em 0.5em rgba(111, 202, 220, 0.75);
     }
 
     35% {
@@ -201,28 +207,28 @@
     }
 
     100% {
-        box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+        box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), 1em 0.5em rgba(111, 202, 220, 0.75);
     }
 }
 
 @keyframes after6 {
     0% {
         height: 0.5em;
-        box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+        box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), 0.5em -1em rgba(233, 169, 32, 0.75);
     }
 
     35% {
         height: 2.5em;
-        box-shadow: 0.5em 0 rgba(61, 184, 143, 0.75), -0.5em 0 rgba(233, 169, 32, 0.75);
+        box-shadow: 0.5em 0 rgba(61, 184, 143, 0.75), 0.5em 0 rgba(233, 169, 32, 0.75);
     }
 
     70% {
         height: 0.5em;
-        box-shadow: 0.5em -1em rgba(61, 184, 143, 0.75), -0.5em 1em rgba(233, 169, 32, 0.75);
+        box-shadow: 0.5em -1em rgba(61, 184, 143, 0.75), 0.5em 1em rgba(233, 169, 32, 0.75);
     }
 
     100% {
-        box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+        box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), 0.5em -1em rgba(233, 169, 32, 0.75);
     }
 }
 
@@ -232,3 +238,53 @@
     left: calc(50% - 1.25em);
 }
 
+/*Loader*/
+
+/*Light Theme*/
+.light-theme {
+    background-color: #c9cab7;
+}
+.main-body.light-theme h1 {
+    color: black;
+}
+
+.main-body.light-theme h2 {
+    color: black;
+}
+
+.main-body.light-theme button{
+    background-color: #05a6a6;
+    color: black;
+}
+
+/*Light Theme*/
+
+/*Light Button*/
+.light-button {
+    padding: 15px 15px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #05a6a6;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: #087b7b 0 7px 0 0;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 15%;
+    left: 45%;
+}
+
+.light-button:hover {
+    box-shadow: #087b7b 0 7px 0 0;
+}
+
+.light-button:active {
+    background-color: rgb(255, 56, 86);
+    /*50, 168, 80*/
+    box-shadow: rgb(201, 46, 70) 0 0 0 0;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+/*Light Button*/

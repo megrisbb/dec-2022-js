@@ -1,0 +1,59 @@
+.wrapper {
+    background-color: black;
+    height: 140vh;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all-post {
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px white solid;
+    padding: 30px 40px;
+    box-shadow: 0 0 1px #ffffff, 0 0 10px #05a6a6, 0 0 100px #2f2f2f;
+    transition: all 1s;
+    width: 60%;
+}
+.all-post:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.all-post > div {
+    padding: 5px 0;
+    color: white;
+}
+.user-comments {
+    color: white;
+}
+.all-comments {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    margin-top: 50px;
+    /*width: 90%;*/
+    /*margin: 0 auto;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*gap: 15px;*/
+}
+
+.all-comments > div {
+    border: 1px solid #05a6a6;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 30px 20px;
+    box-shadow: 0 0 1px #ffffff, 0 0 10px #9158ce, 0 0 100px #2f2f2f;
+    color: white;
+    /*margin-top: 20px;*/
+    /*background-color: #05a6a6;*/
+    /*border: 1px black solid;*/
+    /*width: 20%;*/
+    /*display: flex;*/
+    /*padding: 20px 10px 20px 10px;*/
+}

@@ -7,8 +7,26 @@ fetch('https://jsonplaceholder.typicode.com/users')
         let userPageBody = document.createElement('div')
         userPageBody.classList.add('user-page__body')
 
-        for (const user of users) {
+        //Add button light
+        const button = document.createElement('button');
+        button.classList.add('light-button', 'light-btn');
+        button.innerText = 'light';
 
+        let click = true;
+
+        button.addEventListener('click', () => {
+            wrap.classList.toggle('light-theme');
+
+            console.log(button.length);
+            if (!click) {
+                button.innerText = 'light';
+            } else {
+                button.innerText = 'dark';
+            }
+            click = !click;
+        });
+
+        for (const user of users) {
 
             let allUsers = document.createElement('div')
             allUsers.classList.add('users-body')
@@ -24,7 +42,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
             userPageBody.appendChild(allUsers)
             allUsers.append(usersInfo, userNewPage)
-            wrap.append(userPageBody)
+            wrap.append(userPageBody, button)
             document.body.appendChild(wrap)
         }
     });
