@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="370fd9c0-99ed-442a-891e-c834b8c8dbb3" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/lessons/lesson5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson5/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson8/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/lesson2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/lesson2/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/css/null.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/css/post-details.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/css/user-details.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/css/user-page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/js/post-details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/js/user-details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/js/user-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/post-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/user-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniproject/user-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/lesson3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework/lesson3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/lesson3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/lesson3/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +43,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Бодя/IdeaProjects/dec-2022-js/lessons/lesson8&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -112,7 +97,8 @@
       <workItem from="1680082495573" duration="3826000" />
       <workItem from="1680163333965" duration="1775000" />
       <workItem from="1680786986270" duration="889000" />
-      <workItem from="1687688995915" duration="1700000" />
+      <workItem from="1687688995915" duration="6298000" />
+      <workItem from="1687804791530" duration="3356000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1677677380025</created>
@@ -128,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678791743432</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit">
+      <created>1687691028771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687691028772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
