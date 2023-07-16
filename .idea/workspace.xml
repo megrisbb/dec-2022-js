@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="370fd9c0-99ed-442a-891e-c834b8c8dbb3" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/homework/lesson4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/lesson4/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework/lesson3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/lesson3/main.js" afterDir="false" />
     </list>
@@ -33,31 +35,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Бодя/IdeaProjects/dec-2022-js/lessons/lesson8&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Бодя/IdeaProjects/dec-2022-js/homework/lesson4",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Бодя\IdeaProjects\dec-2022-js\homework\lesson4" />
       <recent name="C:\Users\Бодя\IdeaProjects\dec-2022-js\lessons\lesson8" />
       <recent name="C:\Users\Бодя\IdeaProjects\dec-2022-js\lessons\lesson5" />
       <recent name="C:\Users\Бодя\IdeaProjects\dec-2022-js\homework" />
       <recent name="C:\Users\Бодя\IdeaProjects\dec-2022-js\homework\lesson3" />
-      <recent name="C:\Users\Бодя\IdeaProjects\dec-2022-js\lessons\lesson2\Lesson3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Бодя\IdeaProjects\dec-2022-js\miniproject\css" />
@@ -99,7 +101,8 @@
       <workItem from="1687688995915" duration="6298000" />
       <workItem from="1687804791530" duration="3487000" />
       <workItem from="1688065047659" duration="266000" />
-      <workItem from="1688065496100" duration="3614000" />
+      <workItem from="1688065496100" duration="3776000" />
+      <workItem from="1689504509940" duration="4796000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1677677380025</created>
@@ -129,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687808378204</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit">
+      <created>1688069395785</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688069395785</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

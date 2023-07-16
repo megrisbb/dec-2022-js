@@ -584,7 +584,7 @@
 // }
 
 // 1. Створити пустий масив та :
-let arr = [];
+// let arr = [];
 //     a. заповнити його 50 парними числами за допомоги циклу.
 // for (let i = 0; i < 50; i++) {
 //     arr.push(i * 2)
@@ -621,17 +621,42 @@ let arr = [];
 //     }
 // }
 
-
+// const arr = [1, 2, 3, 5, 7, 9, 56, 8, 67];
 // 4. Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним та записати їх в новий масив
+// for (const number of arr) {
+//     if (number % 2 === 0 ) {
+//         console.log(number)
+//     }
+// }
 // 5. Вивести кожен елемент масиву, сусід справа якого є парним
 // EXAMPLE: [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ] -> Має бути виведено 1, 9, 56
+// for (let i = 0; i < arr.length - 1; i++) {
+//     const arrElement = arr[i];
+//     if (arr[i + 1]  % 2 === 0) {
+//         console.log(arr[i])
+//     }
+// }
+
 // 6. Є масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. Обрахувати середній чек.
-//
+// const arr = [100, 250, 50, 168, 120, 345, 188];
+// let totalSum = 0
+// for (const check of arr) {
+//     totalSum+=check
+// }
+// console.log(totalSum)
+// const averageCheck = totalSum / arr.length;
+// console.log(averageCheck)
 // 7. Створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
+// const arr = [100, 250, 50, 168, 120, 345, 188];
+//
+// const emptyArray = []
+// for (const number of arr) {
+//     const multipleNumber = number * 5
+//     emptyArray.push(multipleNumber)
+// }
+// console.log(emptyArray)
 // 8. Створити масив з будь якими значеннями (стрінги, числа, і тд...). пройтись по ньому, і якщо елемент є числом - додати його в інший масив.
-//
-//
-//
+
 // - Дано 2 масиви з рівною кількістю об'єктів.
 // Масиви:
 //     let usersWithId = [
@@ -647,7 +672,20 @@ let arr = [];
 //     {user_id: 2, country: 'Poland', city: 'Krakow'},
 //     {user_id: 4, country: 'USA', city: 'Miami'}
 // ];
-//
+// let usersWithCities = [];
+// for (const usersWithIdItem of usersWithId) {
+//     for (const citiesWithIdItem of citiesWithId) {
+//         if (usersWithIdItem.id === citiesWithIdItem.user_id) {
+//                 usersWithIdItem.adress = {
+//                     UserId: citiesWithIdItem.user_id,
+//                     Country: citiesWithIdItem.country,
+//                     City: citiesWithIdItem.city
+//                 }
+//                 usersWithCities.push(usersWithIdItem)
+//         }
+//     }
+// }
+// console.log(usersWithCities);
 // З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
 //     Записати цей об'єкт в новий масив
 // Example:
@@ -666,15 +704,19 @@ let arr = [];
 //             // TO BE CONTINUED .....
 //         ]
 //
-//
-//
-//
+
 //         - Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
 //
 // - Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу скопіювати значення одного масиву в інший.
 //
 //
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
+// const arr = [ 'a', 'b', 'c']
+// let newArr = [];
+// for (const string of arr) {
+//     newArr+=string
+// }
+// console.log(newArr)
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу while зібрати всі букви в слово.
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
 
